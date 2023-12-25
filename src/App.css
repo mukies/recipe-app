@@ -1,0 +1,37 @@
+/** @format */
+
+.home {
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("https://t3.ftcdn.net/jpg/00/27/57/96/360_F_27579652_tM7V4fZBBw8RLmZo0Bi8WhtO2EosTRFD.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center p {
+    padding: 0;
+    margin: 5px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-col {
+    padding-top: 80px !important;
+}
+.detailContainer {
+    margin-top: 100px;
+}
+.headerText {
+    font-weight: bold;
+}
